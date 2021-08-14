@@ -99,7 +99,7 @@ def aco():
 			kk = '+964'+sfr
 			op.write(kk+user+':'+user+'\n')
 		op.close()
-		combo = ('combo.txt')
+		combo = ('Cart.txt')
 	
 	elif reb=='2':
 		sfr = input(' \x1b[1;97mchand bet:\033[32m ')
@@ -117,7 +117,7 @@ def aco():
 			kk = '+964'+sfr
 			op.write(kk+user+':'+'0'+sfr+user+'\n')
 		op.close()
-		combo = ('combo750.txt')
+		combo = ('Cart.txt')
 	
 	elif reb=='3':
 		print(' \033[32mname bnosa')
@@ -135,7 +135,7 @@ def aco():
 			kk =sfr+x1+x2+x3+'@gmail.com'
 			op.write(kk+':'+sfr+x1+x2+x3+'\n')
 		op.close()
-		combo = ('combo.txt')
+		combo = ('Cart.txt')
 	elif reb=='4':
 		print(logo)
 		print(logo2)
@@ -156,7 +156,7 @@ def crack():
 	r2=0
 	r3=0
 	r4=0
-	for x in open('combo.txt','r').read().splitlines():
+	for x in open('Cart.txt','r').read().splitlines():
 		user = x.split(":")[0]
 		pas = x.split(":")[1]
 		
